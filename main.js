@@ -1,6 +1,9 @@
 function dataAnalyze(y){
-        console.log(y.meals[0].strMeal);
-        document.getElementById("data").innerHTML=y.meals[0].strMeal;
+        console.log(y.meals[0]);
+        document.getElementById("mealName").innerHTML=y.meals[0].strMeal;
+        document.getElementById("strArea").innerHTML=y.meals[0].strArea;
+        document.getElementById("strInstructions").innerHTML=y.meals[0].strInstructions;
+        document.getElementById("strMealThumb").text=y.meals[0].strMealThumb;
         // document.getElementById("data").innerHTML="No Data";
         // console.log("No data");
 }

@@ -8,22 +8,39 @@
 </head>
 <body>
     <nav>
-        <div>
-            Logo
+        <div class="navbar">
+            <div>
+                Logo
+            </div>
+            <div style="width:50%">
+                <ul id="ul1">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="padd">
+
+            </div>
         </div>
-        <div>
-            <ul id="ul1">
-            <li>Home</li>
-        </ul>
-        </div>
+       
     </nav>
 
-    <form id="frm1" method="post">
-        <input type="text" name="mealName">Enter Meal</input>
-        <button id="but" type="submit">Click Me!</button>
+    <form id="frm1" method="post" class="fo">
+        <input type="text" name="mealName" id="inp" placeholder="Search a Meal"></input>
+        <button id="but" type="submit">Search</button>
     </form>
     <div id="data"></div>
 
+    <div class="card-container">
+        <div class="card">
+            <p id="mealName">Search Something to display</p>
+            <p id="strArea"></p>
+            <!-- <img src="strMealThumb"> -->
+            <p id="strInstructions">😋</p>
+        </div>
+    </div>
+    
 
     <script src="main.js"></script>
 </body>
