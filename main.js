@@ -1,5 +1,12 @@
 function dataAnalyze(y){
-        console.log(y.meals[0]);
+        // console.log(y.meals[0]);
+        // Object.getOwnPropertyNames(y.meals[0]).forEach(text => {
+        //     console.log(text);
+        //     if(text.includes("stringredients")){
+
+        //     }
+        // });
+
         document.getElementById("mealName").innerHTML=y.meals[0].strMeal;
         document.getElementById("strArea").innerHTML=y.meals[0].strArea;
         document.getElementById("strInstructions").innerHTML=y.meals[0].strInstructions;
