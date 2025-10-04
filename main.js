@@ -3,7 +3,10 @@ function dataAnalyze(y){
         document.getElementById("mealName").innerHTML=y.meals[0].strMeal;
         document.getElementById("strArea").innerHTML=y.meals[0].strArea;
         document.getElementById("strInstructions").innerHTML=y.meals[0].strInstructions;
-        document.getElementById("strMealThumb").text=y.meals[0].strMealThumb;
+        document.getElementById("image").src=y.meals[0].strMealThumb;
+         document.getElementById("con").style.display="flex";
+;
+
         // document.getElementById("data").innerHTML="No Data";
         // console.log("No data");
 }

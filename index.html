@@ -9,23 +9,26 @@
 <body>
     <nav>
         <div class="navbar">
-            <div>
-                Logo
+            <div class="logoname">
+                MealFinder
             </div>
-            <div style="width:50%">
+            <!-- <div style="width:50%">
                 <ul id="ul1">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
-            </div>
+            </div> -->
             <div class="padd">
 
             </div>
         </div>
-       
     </nav>
-
+    <div class="img-car"> 
+                <img class="img" src="images/images (18).jpg" />
+                <img class="img" src="images/images (19).jpg" />
+                <img class="img" src="images/images (20).jpg" />
+    </div>
     <form id="frm1" method="post" class="fo">
         <input type="text" name="mealName" id="inp" placeholder="Search a Meal"></input>
         <button id="but" type="submit">Search</button>
@@ -36,8 +39,11 @@
         <div class="card">
             <p id="mealName">Search Something to display</p>
             <p id="strArea"></p>
-            <!-- <img src="strMealThumb"> -->
-            <p id="strInstructions">😋</p>
+            <div class="img-container" id="con">
+              <img id="image" src="" alt="search">
+              <p id="strInstructions"></p>  
+            </div>
+            
         </div>
     </div>
     
